@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator-container {
+    text-align: center;
+    width:400px;
+    padding: 20px;
+    background-color: rgb(113, 108, 108);
+    border-radius: 10px;
+}
+
+.calculator {
+    display: inline-block;
+    text-align: center; /* Center the text within the calculator */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.display {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 100%;
+    font-size: 1.5em;
+    display: flex;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.buttons {
+    display: grid;
+    gap: 10px;
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.2em;
+    width: calc(25% - 5px); /* Set width to 25% with a small gap */
+}
